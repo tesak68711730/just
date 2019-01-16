@@ -19,7 +19,7 @@ public class App {
         pandomium.initialize();
 
         PandomiumClient client = pandomium.createClient();
-        PandomiumBrowser browser = client.loadURL("https://vk.com");
+        PandomiumBrowser browser = client.loadURL("http://bookingbt.it/#/home");
 
         final JFrame frame = new JFrame();
         frame.getContentPane().add(browser.toAWTComponent(), BorderLayout.CENTER);
